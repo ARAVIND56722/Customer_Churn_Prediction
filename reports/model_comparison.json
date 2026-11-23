@@ -1,0 +1,78 @@
+{
+  "best_model": "Logistic_Regression",
+  "best_test_roc_auc": 0.8913,
+  "all_models": {
+    "Logistic_Regression": {
+      "cv_roc_auc_mean": 0.8835,
+      "cv_roc_auc_std": 0.0081,
+      "cv_f1_mean": 0.6517,
+      "cv_f1_std": 0.0153,
+      "test_accuracy": 0.7821,
+      "test_balanced_accuracy": 0.8057,
+      "test_precision": 0.5178,
+      "test_recall": 0.8497,
+      "test_f1": 0.6434,
+      "test_roc_auc": 0.8913,
+      "confusion_matrix": {
+        "true_negative": 825,
+        "false_positive": 258,
+        "false_negative": 49,
+        "true_positive": 277
+      }
+    },
+    "Random_Forest": {
+      "cv_roc_auc_mean": 0.8792,
+      "cv_roc_auc_std": 0.0086,
+      "cv_f1_mean": 0.6432,
+      "cv_f1_std": 0.017,
+      "test_accuracy": 0.785,
+      "test_balanced_accuracy": 0.8022,
+      "test_precision": 0.5221,
+      "test_recall": 0.8344,
+      "test_f1": 0.6423,
+      "test_roc_auc": 0.8853,
+      "confusion_matrix": {
+        "true_negative": 834,
+        "false_positive": 249,
+        "false_negative": 54,
+        "true_positive": 272
+      }
+    },
+    "Gradient_Boosting": {
+      "cv_roc_auc_mean": 0.8772,
+      "cv_roc_auc_std": 0.0085,
+      "cv_f1_mean": 0.5984,
+      "cv_f1_std": 0.0202,
+      "test_accuracy": 0.851,
+      "test_balanced_accuracy": 0.7712,
+      "test_precision": 0.7,
+      "test_recall": 0.6227,
+      "test_f1": 0.6591,
+      "test_roc_auc": 0.8835,
+      "confusion_matrix": {
+        "true_negative": 996,
+        "false_positive": 87,
+        "false_negative": 123,
+        "true_positive": 203
+      }
+    },
+    "Decision_Tree": {
+      "cv_roc_auc_mean": 0.8633,
+      "cv_roc_auc_std": 0.0055,
+      "cv_f1_mean": 0.6324,
+      "cv_f1_std": 0.0171,
+      "test_accuracy": 0.8062,
+      "test_balanced_accuracy": 0.8086,
+      "test_precision": 0.5556,
+      "test_recall": 0.8129,
+      "test_f1": 0.66,
+      "test_roc_auc": 0.8827,
+      "confusion_matrix": {
+        "true_negative": 871,
+        "false_positive": 212,
+        "false_negative": 61,
+        "true_positive": 265
+      }
+    }
+  }
+}

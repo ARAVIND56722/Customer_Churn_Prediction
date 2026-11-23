@@ -1,0 +1,248 @@
+{
+  "dataset_metrics": {
+    "total_records": 7043,
+    "features_count": 21,
+    "churn_count": 1631,
+    "non_churn_count": 5412,
+    "churn_rate_pct": 23.16
+  },
+  "tenure_analysis": {
+    "overall_mean_tenure": 29.37,
+    "overall_median_tenure": 26.0,
+    "churned_mean_tenure": 13.12,
+    "retained_mean_tenure": 34.27
+  },
+  "charges_analysis": {
+    "overall_mean_monthly": 67.45,
+    "churned_mean_monthly": 79.43,
+    "retained_mean_monthly": 63.84,
+    "overall_mean_total": 1979.18,
+    "churned_mean_total": 1063.67,
+    "retained_mean_total": 2255.08
+  },
+  "segment_churn_rates": {
+    "Contract": {
+      "Month-to-month": {
+        "total_customers": 3821,
+        "churned": 1529,
+        "churn_rate_pct": 40.02
+      },
+      "One year": {
+        "total_customers": 1462,
+        "churned": 90,
+        "churn_rate_pct": 6.16
+      },
+      "Two year": {
+        "total_customers": 1760,
+        "churned": 12,
+        "churn_rate_pct": 0.68
+      }
+    },
+    "InternetService": {
+      "DSL": {
+        "total_customers": 2497,
+        "churned": 434,
+        "churn_rate_pct": 17.38
+      },
+      "Fiber optic": {
+        "total_customers": 3007,
+        "churned": 1093,
+        "churn_rate_pct": 36.35
+      },
+      "No": {
+        "total_customers": 1539,
+        "churned": 104,
+        "churn_rate_pct": 6.76
+      }
+    },
+    "PaymentMethod": {
+      "Bank transfer (automatic)": {
+        "total_customers": 1569,
+        "churned": 323,
+        "churn_rate_pct": 20.59
+      },
+      "Credit card (automatic)": {
+        "total_customers": 1555,
+        "churned": 345,
+        "churn_rate_pct": 22.19
+      },
+      "Electronic check": {
+        "total_customers": 2328,
+        "churned": 618,
+        "churn_rate_pct": 26.55
+      },
+      "Mailed check": {
+        "total_customers": 1591,
+        "churned": 345,
+        "churn_rate_pct": 21.68
+      }
+    },
+    "TechSupport": {
+      "No": {
+        "total_customers": 3682,
+        "churned": 1081,
+        "churn_rate_pct": 29.36
+      },
+      "No internet service": {
+        "total_customers": 1539,
+        "churned": 104,
+        "churn_rate_pct": 6.76
+      },
+      "Yes": {
+        "total_customers": 1822,
+        "churned": 446,
+        "churn_rate_pct": 24.48
+      }
+    },
+    "OnlineSecurity": {
+      "No": {
+        "total_customers": 3721,
+        "churned": 1070,
+        "churn_rate_pct": 28.76
+      },
+      "No internet service": {
+        "total_customers": 1539,
+        "churned": 104,
+        "churn_rate_pct": 6.76
+      },
+      "Yes": {
+        "total_customers": 1783,
+        "churned": 457,
+        "churn_rate_pct": 25.63
+      }
+    },
+    "PaperlessBilling": {
+      "No": {
+        "total_customers": 2868,
+        "churned": 633,
+        "churn_rate_pct": 22.07
+      },
+      "Yes": {
+        "total_customers": 4175,
+        "churned": 998,
+        "churn_rate_pct": 23.9
+      }
+    },
+    "SeniorCitizen": {
+      "No (Non-Senior)": {
+        "total_customers": 5942,
+        "churned": 1359,
+        "churn_rate_pct": 22.87
+      },
+      "Yes (Senior)": {
+        "total_customers": 1101,
+        "churned": 272,
+        "churn_rate_pct": 24.7
+      }
+    },
+    "Partner": {
+      "No": {
+        "total_customers": 3669,
+        "churned": 911,
+        "churn_rate_pct": 24.83
+      },
+      "Yes": {
+        "total_customers": 3374,
+        "churned": 720,
+        "churn_rate_pct": 21.34
+      }
+    },
+    "Dependents": {
+      "No": {
+        "total_customers": 4949,
+        "churned": 1194,
+        "churn_rate_pct": 24.13
+      },
+      "Yes": {
+        "total_customers": 2094,
+        "churned": 437,
+        "churn_rate_pct": 20.87
+      }
+    },
+    "PhoneService": {
+      "No": {
+        "total_customers": 651,
+        "churned": 146,
+        "churn_rate_pct": 22.43
+      },
+      "Yes": {
+        "total_customers": 6392,
+        "churned": 1485,
+        "churn_rate_pct": 23.23
+      }
+    },
+    "MultipleLines": {
+      "No": {
+        "total_customers": 3375,
+        "churned": 768,
+        "churn_rate_pct": 22.76
+      },
+      "No phone service": {
+        "total_customers": 651,
+        "churned": 146,
+        "churn_rate_pct": 22.43
+      },
+      "Yes": {
+        "total_customers": 3017,
+        "churned": 717,
+        "churn_rate_pct": 23.77
+      }
+    },
+    "DeviceProtection": {
+      "No": {
+        "total_customers": 3340,
+        "churned": 909,
+        "churn_rate_pct": 27.22
+      },
+      "No internet service": {
+        "total_customers": 1539,
+        "churned": 104,
+        "churn_rate_pct": 6.76
+      },
+      "Yes": {
+        "total_customers": 2164,
+        "churned": 618,
+        "churn_rate_pct": 28.56
+      }
+    },
+    "OnlineBackup": {
+      "No": {
+        "total_customers": 3272,
+        "churned": 870,
+        "churn_rate_pct": 26.59
+      },
+      "No internet service": {
+        "total_customers": 1539,
+        "churned": 104,
+        "churn_rate_pct": 6.76
+      },
+      "Yes": {
+        "total_customers": 2232,
+        "churned": 657,
+        "churn_rate_pct": 29.44
+      }
+    }
+  },
+  "tenure_cohorts": {
+    "0-12 months": {
+      "total_customers": 2134,
+      "churned": 1009,
+      "churn_rate_pct": 47.28
+    },
+    "13-24 months": {
+      "total_customers": 1224,
+      "churned": 353,
+      "churn_rate_pct": 28.84
+    },
+    "25-48 months": {
+      "total_customers": 2061,
+      "churned": 240,
+      "churn_rate_pct": 11.64
+    },
+    "49-72 months": {
+      "total_customers": 1624,
+      "churned": 29,
+      "churn_rate_pct": 1.79
+    }
+  }
+}

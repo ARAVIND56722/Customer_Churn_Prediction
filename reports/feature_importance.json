@@ -1,0 +1,294 @@
+{
+  "top_churn_risk_factors_odds_ratio": [
+    {
+      "feature": "InternetService_Fiber optic",
+      "coefficient": 1.4233,
+      "odds_ratio": 4.151,
+      "impact": "Increases churn odds by 315.1%"
+    },
+    {
+      "feature": "PaymentMethod_Electronic check",
+      "coefficient": 0.5164,
+      "odds_ratio": 1.676,
+      "impact": "Increases churn odds by 67.6%"
+    },
+    {
+      "feature": "SeniorCitizen_1",
+      "coefficient": 0.2361,
+      "odds_ratio": 1.266,
+      "impact": "Increases churn odds by 26.6%"
+    },
+    {
+      "feature": "PaperlessBilling_Yes",
+      "coefficient": 0.235,
+      "odds_ratio": 1.265,
+      "impact": "Increases churn odds by 26.5%"
+    },
+    {
+      "feature": "StreamingMovies_Yes",
+      "coefficient": 0.233,
+      "odds_ratio": 1.262,
+      "impact": "Increases churn odds by 26.2%"
+    },
+    {
+      "feature": "StreamingTV_Yes",
+      "coefficient": 0.191,
+      "odds_ratio": 1.21,
+      "impact": "Increases churn odds by 21.0%"
+    },
+    {
+      "feature": "OnlineBackup_Yes",
+      "coefficient": 0.1722,
+      "odds_ratio": 1.188,
+      "impact": "Increases churn odds by 18.8%"
+    },
+    {
+      "feature": "PaymentMethod_Mailed check",
+      "coefficient": 0.1313,
+      "odds_ratio": 1.14,
+      "impact": "Increases churn odds by 14.0%"
+    },
+    {
+      "feature": "TotalCharges",
+      "coefficient": 0.1027,
+      "odds_ratio": 1.108,
+      "impact": "Increases churn odds by 10.8%"
+    },
+    {
+      "feature": "MultipleLines_Yes",
+      "coefficient": 0.1022,
+      "odds_ratio": 1.108,
+      "impact": "Increases churn odds by 10.8%"
+    }
+  ],
+  "top_retention_factors_odds_ratio": [
+    {
+      "feature": "Contract_Two year",
+      "coefficient": -3.1842,
+      "odds_ratio": 0.041,
+      "impact": "Reduces churn odds by 95.9%"
+    },
+    {
+      "feature": "Contract_One year",
+      "coefficient": -1.9514,
+      "odds_ratio": 0.142,
+      "impact": "Reduces churn odds by 85.8%"
+    },
+    {
+      "feature": "tenure",
+      "coefficient": -1.0446,
+      "odds_ratio": 0.352,
+      "impact": "Reduces churn odds by 64.8%"
+    },
+    {
+      "feature": "Dependents_Yes",
+      "coefficient": -0.3867,
+      "odds_ratio": 0.679,
+      "impact": "Reduces churn odds by 32.1%"
+    },
+    {
+      "feature": "TechSupport_Yes",
+      "coefficient": -0.2489,
+      "odds_ratio": 0.78,
+      "impact": "Reduces churn odds by 22.0%"
+    },
+    {
+      "feature": "PhoneService_Yes",
+      "coefficient": -0.2234,
+      "odds_ratio": 0.8,
+      "impact": "Reduces churn odds by 20.0%"
+    },
+    {
+      "feature": "InternetService_No",
+      "coefficient": -0.2059,
+      "odds_ratio": 0.814,
+      "impact": "Reduces churn odds by 18.6%"
+    },
+    {
+      "feature": "TechSupport_No internet service",
+      "coefficient": -0.2059,
+      "odds_ratio": 0.814,
+      "impact": "Reduces churn odds by 18.6%"
+    },
+    {
+      "feature": "OnlineBackup_No internet service",
+      "coefficient": -0.2059,
+      "odds_ratio": 0.814,
+      "impact": "Reduces churn odds by 18.6%"
+    },
+    {
+      "feature": "DeviceProtection_No internet service",
+      "coefficient": -0.2059,
+      "odds_ratio": 0.814,
+      "impact": "Reduces churn odds by 18.6%"
+    }
+  ],
+  "random_forest_top_features": [
+    {
+      "feature": "tenure",
+      "importance": 0.2822
+    },
+    {
+      "feature": "TotalCharges",
+      "importance": 0.1524
+    },
+    {
+      "feature": "Contract_Two year",
+      "importance": 0.1301
+    },
+    {
+      "feature": "Contract_One year",
+      "importance": 0.0948
+    },
+    {
+      "feature": "MonthlyCharges",
+      "importance": 0.0808
+    },
+    {
+      "feature": "InternetService_Fiber optic",
+      "importance": 0.0634
+    },
+    {
+      "feature": "OnlineSecurity_No internet service",
+      "importance": 0.0209
+    },
+    {
+      "feature": "TechSupport_No internet service",
+      "importance": 0.0192
+    },
+    {
+      "feature": "DeviceProtection_No internet service",
+      "importance": 0.0179
+    },
+    {
+      "feature": "OnlineBackup_No internet service",
+      "importance": 0.0177
+    }
+  ],
+  "gradient_boosting_top_features": [
+    {
+      "feature": "tenure",
+      "importance": 0.4054
+    },
+    {
+      "feature": "MonthlyCharges",
+      "importance": 0.1838
+    },
+    {
+      "feature": "InternetService_Fiber optic",
+      "importance": 0.1401
+    },
+    {
+      "feature": "Contract_One year",
+      "importance": 0.094
+    },
+    {
+      "feature": "TotalCharges",
+      "importance": 0.0782
+    },
+    {
+      "feature": "Contract_Two year",
+      "importance": 0.0189
+    },
+    {
+      "feature": "Dependents_Yes",
+      "importance": 0.014
+    },
+    {
+      "feature": "PaymentMethod_Electronic check",
+      "importance": 0.013
+    },
+    {
+      "feature": "MultipleLines_Yes",
+      "importance": 0.0072
+    },
+    {
+      "feature": "Partner_Yes",
+      "importance": 0.0062
+    }
+  ],
+  "raw_feature_permutation_importance": [
+    {
+      "feature": "Contract",
+      "importance_drop_in_roc_auc": 0.1413,
+      "std": 0.0137
+    },
+    {
+      "feature": "tenure",
+      "importance_drop_in_roc_auc": 0.0875,
+      "std": 0.0076
+    },
+    {
+      "feature": "InternetService",
+      "importance_drop_in_roc_auc": 0.0666,
+      "std": 0.0079
+    },
+    {
+      "feature": "PaymentMethod",
+      "importance_drop_in_roc_auc": 0.0056,
+      "std": 0.0014
+    },
+    {
+      "feature": "MonthlyCharges",
+      "importance_drop_in_roc_auc": 0.0024,
+      "std": 0.0013
+    },
+    {
+      "feature": "MultipleLines",
+      "importance_drop_in_roc_auc": 0.0014,
+      "std": 0.0005
+    },
+    {
+      "feature": "Dependents",
+      "importance_drop_in_roc_auc": 0.001,
+      "std": 0.0008
+    },
+    {
+      "feature": "TechSupport",
+      "importance_drop_in_roc_auc": 0.001,
+      "std": 0.0007
+    },
+    {
+      "feature": "StreamingMovies",
+      "importance_drop_in_roc_auc": 0.0009,
+      "std": 0.0015
+    },
+    {
+      "feature": "OnlineBackup",
+      "importance_drop_in_roc_auc": 0.0004,
+      "std": 0.001
+    }
+  ],
+  "business_recommendations": [
+    {
+      "category": "Contract & Commitment",
+      "driver": "Month-to-Month Contracts vs 1-Year / 2-Year Contracts",
+      "finding": "Month-to-month contracts are the single largest risk factor for churn, with over 3x higher odds of churn compared to annual commitments.",
+      "recommendation": "Offer introductory milestone discounts (e.g. 15% off for switching to a 1-year contract at month 3) or loyalty rewards for 12/24-month commitments."
+    },
+    {
+      "category": "Service & Experience",
+      "driver": "Tech Support & Online Security Add-ons",
+      "finding": "Customers with Tech Support and Online Security have substantially lower churn rates, acting as strong retention anchors.",
+      "recommendation": "Bundle Tech Support and Online Security free for the first 3 months with high-speed Fiber Optic packages to build switching costs and user trust."
+    },
+    {
+      "category": "Customer Journey & Lifecycle",
+      "driver": "Tenure (The First 12 Months Vulnerability Window)",
+      "finding": "Customer churn hazard is highest during months 1 to 12. Customers who remain past 24 months exhibit over 70% lower churn probability.",
+      "recommendation": "Implement an automated onboarding check-in sequence at day 14, 45, and 90, with proactive outreach to solve technical or billing friction."
+    },
+    {
+      "category": "Billing & Payments",
+      "driver": "Electronic Check vs Automatic Payments",
+      "finding": "Customers paying via Electronic Check churn at higher rates than customers enrolled in automatic credit card or bank transfer.",
+      "recommendation": "Incentivize Auto-Pay enrollment with a one-time $5 bill credit or recurring $2/mo discount."
+    },
+    {
+      "category": "Product Pricing",
+      "driver": "Fiber Optic High Monthly Charges Sensitivity",
+      "finding": "High monthly charges without value-added service perception trigger cancellation.",
+      "recommendation": "Introduce flexible tiered bandwidth packages or personalized loyalty perks for premium tier subscribers."
+    }
+  ]
+}
